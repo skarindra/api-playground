@@ -6,8 +6,9 @@
 
 #Project Structure:
 -	pom.xml
--	src/main/java/com/bestbuy/testapi/constant : to list constant variable, like Base URL and API Key.
+-	src/main/java/com/bestbuy/testapi/constant : to list constant variable, like Base URL.
 -	src/main/java/com/bestbuy/testapi/steps : to list all of the actions that will be performed.
+- src/main/java/com/bestbuy/testapi/utils : to list common actions that can be performed in any step class.
 -	src/main/resources/log4j.xml : logging properties
 - src/test/java/com/bestbuy/testapi/TestRunner.java : Test runner
 - src/test/java/com/bestbuy/testapi/stepdefinitions : consist of classes that can be used to map the story (scenario) in feature file with "steps" classes.
